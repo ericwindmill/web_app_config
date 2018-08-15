@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a8c005-ffad-4107-bf25-5350666093b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/bin/server.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/web/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/client.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/server.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/web/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/web/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/web_app_config_example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example/web_app_config_example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/web_app_config_base.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/web_app_config.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/web_app_config_test.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_app_config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web_app_config.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +59,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1128">
-                <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+              <first_editor relative-caret-position="768">
+                <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -207,18 +190,18 @@
       <option name="presentableId" value="Default" />
       <updated>1534355227804</updated>
       <workItem from="1534355229460" duration="35000" />
-      <workItem from="1534355296546" duration="4371000" />
+      <workItem from="1534355296546" duration="6006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4406000" />
+    <option name="totallyTimeSpent" value="6041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-490" y="-1418" width="1280" height="1418" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28594506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1898223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -235,7 +218,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.41221374" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.4117647" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.30392158" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -289,8 +272,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1128">
-            <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <first_editor relative-caret-position="768">
+            <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           </first_editor>
           <second_editor />
         </state>
