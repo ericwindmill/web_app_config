@@ -15,7 +15,8 @@ const List<String> supportedKeys = const <String>[
 Future main() async {
   await wconfig.writeConfigFromEnvironment(supportedKeys);
   // Assumes the server lives in bin/ and that `pub build` ran
-  var pathToBuild = join(dirname(Platform.script.toFilePath()), '..', 'build');
+  var pathToBuild =
+  join(dirname(Platform.script.toFilePath()), '..', 'build/web');
 
   var staticHandler = createStaticHandler(pathToBuild,
       defaultDocument: 'index.html', serveFilesOutsidePath: true);
