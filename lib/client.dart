@@ -19,7 +19,9 @@ class ConfigClient {
     } catch (e) {}
     try {
       return await _loadYaml();
-    } catch (e) {}
+    } catch (e) {
+      print(e);
+    }
     throw("No config.json or config.yaml found in root directory."
         "Please add a config.json or config.yaml file to the web/ "
         "directory of your app.");
@@ -34,6 +36,6 @@ class ConfigClient {
   Future<dynamic> _loadYaml() async {
     var response = await _client.get('./config.yaml');
     var body = response.body;
-    return loadYaml(body);
+    return new Map<String, dynamic>.from(loadYaml(body));
   }
 }

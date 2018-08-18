@@ -6,7 +6,7 @@ import 'package:yaml/yaml.dart';
 
 /// Reads environment variables and writes a JSON configuration file to web/config.json
 Future writeConfigFromEnvironment(List<String> supportedKeys) async {
-  var yamlFile = new File('build/web/config.yaml');
+  var yamlFile = new File('build/config.yaml');
   var yamlStr = yamlFile.readAsStringSync();
   var yamlJson = loadYaml(yamlStr);
 
@@ -26,6 +26,6 @@ Future writeConfigFromEnvironment(List<String> supportedKeys) async {
   var newConfig = new Map.from(yamlJson)..addAll(environmentMap);
 
   var jsonStr = json.encode(newConfig);
-  var jsonFile = new File('build/web/config.json');
+  var jsonFile = new File('build/config.json');
   await jsonFile.writeAsString(jsonStr);
 }
