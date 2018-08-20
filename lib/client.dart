@@ -15,14 +15,14 @@ class ConfigClient {
     // Try to fetch the generated config.json file, otherwise, fetch the
     // config.yaml file
     try {
-      return await _loadJson();
+      return await _loadJson() as Map<String, dynamic>;
     } catch (e) {}
     try {
-      return await _loadYaml();
+      return await _loadYaml() as Map<String, dynamic>;
     } catch (e) {
       print(e);
     }
-    throw("No config.json or config.yaml found in root directory."
+    throw ("No config.json or config.yaml found in root directory."
         "Please add a config.json or config.yaml file to the web/ "
         "directory of your app.");
   }
